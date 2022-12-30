@@ -17,7 +17,7 @@ ties = 0
 while True:
   selection = input("Please enter your selection :")
   computer_selection = random.choice(choices)
-  if selection == "rock" or selection == "ROCK" or selection == "tas":
+  if selection == "rock" or selection == "ROCK" or selection == "tas" or selection == "TAS":
     if computer_selection == "rock":
       ties =ties +1
       print("Scoreless","Played",ties,"times")
@@ -31,7 +31,7 @@ while True:
       score_user +=1
       print("User won")
       print("Score = ",score_user,score_computer)
-  elif selection == "paper" or selection == "PAPER" or selection == "kagıt":
+  elif selection == "paper" or selection == "PAPER" or selection == "kagıt" or selection == "KAGIT":
     if computer_selection =="paper":
       ties =ties +1
       print("Scoreless","Played",ties,"times")
@@ -47,7 +47,7 @@ while True:
       score_computer +=1
       print("Computer Won ")
       print("Score = ",score_user,score_computer)
-  elif selection == "scissors" or selection == "SCISSORS" or selection == "makas":
+  elif selection == "scissors" or selection == "SCISSORS" or selection == "makas" or selection == "MAKAS":
     if computer_selection == "scissors":
       ties =ties +1
       print("Scoreless","Played",ties,"times")
